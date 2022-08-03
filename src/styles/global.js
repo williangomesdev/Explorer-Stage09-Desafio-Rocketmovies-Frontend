@@ -29,7 +29,7 @@ body, input ,button, textarea{
 
     &:hover{
         
-    filter:brightness(0.9f)
+    filter:brightness(0.9)
 } 
 }
 
