@@ -1,3 +1,4 @@
+import {BsStarFill,BsStarHalf} from 'react-icons/bs'
 import { Container, Profile } from './styles'
 
 export function Header() {
