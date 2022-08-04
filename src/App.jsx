@@ -1,10 +1,10 @@
 import { Button } from "./components/Button";
+import { Header } from "./components/Header";
 
 export function App() {
   return (
     <>
-    <h1>hello</h1>
-    <Button/>
+    <Header/>
     </>
   )
 }
