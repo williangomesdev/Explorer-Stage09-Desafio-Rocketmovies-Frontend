@@ -8,4 +8,13 @@ export const Container = styled.div`
   grid-template-areas:
     "header"
     "content";
+
+  > main {
+    grid-area: content;
+  }
+`;
+
+export const Content = styled.div`
+  max-width: 71.0625rem;
+  margin: 0 auto;
 `;
