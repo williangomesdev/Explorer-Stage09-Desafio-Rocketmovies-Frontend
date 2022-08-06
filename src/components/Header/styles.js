@@ -9,6 +9,12 @@ export const Container = styled.header`
   align-items: center;
   padding: 1.5rem 7.6875rem;
   gap: 4rem;
+
+  > h1 {
+    font-size: 24px;
+    line-height: 32px;
+    color: ${({ theme }) => theme.COLORS.ROSE};
+  }
 `;
 
 export const Profile = styled.div`

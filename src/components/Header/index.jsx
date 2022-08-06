@@ -1,9 +1,10 @@
-import {BsStarFill,BsStarHalf} from 'react-icons/bs'
 import { Container, Profile } from './styles'
-
+import { Input } from '../Input'
 export function Header() {
     return (
         <Container>
+            <h1>Rocketmovies</h1>
+            <Input placeholder="Pesquisar por título" />
             <Profile>
                 <div>
                     <strong>Willian Amaro Gomes</strong>

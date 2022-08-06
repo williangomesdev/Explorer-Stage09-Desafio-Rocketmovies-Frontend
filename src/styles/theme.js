@@ -10,6 +10,7 @@ export default {
     GRAY_50: "#E5E5E5",
     WHITE: "#FFFFFF",
     BLACK: "#0D0C0F",
-    BACKGROUND:"#1C1B1E",
+    BACKGROUND: "#1C1B1E",
+    BACKGROUND_INPUT: "#262529",
   },
 };

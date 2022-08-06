@@ -8,16 +8,6 @@ export function Home() {
     return (
         <Container>
             <Header />
-            <main>
-                <Content>
-                    <ButtonText title="voltar" />
-                    <Section title="Meus filmes">
-                        <Tag title="Ficão Cientifica" />
-                        <Tag title="Drama" />
-                        <Tag title="Familia" />
-                    </Section>
-                </Content>
-            </main>
         </Container>
     );
 }
