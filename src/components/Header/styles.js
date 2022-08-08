@@ -7,6 +7,7 @@ export const Container = styled.header`
   border-bottom: 1px solid ${({ theme }) => theme.COLORS.GRAY_800};
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 1.5rem 7.6875rem;
   gap: 4rem;
 
