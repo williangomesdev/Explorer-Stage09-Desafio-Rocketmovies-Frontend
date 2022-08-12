@@ -1,9 +1,9 @@
 import { Header } from '../../components/Header'
 import { ButtonText } from '../../components/ButtonText'
 import { Tag } from '../../components/Tag'
-
 import { AiOutlineArrowLeft } from "react-icons/ai";
-import { BsStarFill, BsStarHalf } from "react-icons/bs";
+import { BsStarFill, BsStar, BsStarHalf, BsClock } from "react-icons/bs";
+import { StarGroup } from '../../components/StarGroup'
 
 
 
@@ -20,18 +20,25 @@ export function MoviePreview() {
                 </div>
                 <div>
                     <h1>Interestellar</h1>
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarHalf />
+                    <div>
+                        <BsStarFill />
+                        <BsStarFill />
+                        <BsStarFill />
+                        <BsStarFill />
+                        <BsStar />
+                    </div>
                 </div>
-                <span>Por Willian Amaro Gomes</span>
-                <span>08/08/2022 as 08:00</span>
-                <Tag title="Ficção Cientifica" />
-                <Tag title="Drama" />
-                <Tag title="Familia" />
-
+                <div>
+                    <img src="https://github.com/williangomesdev.png" alt="foto do perfil" />
+                    <span>Por Willian Amaro Gomes</span>
+                    <BsClock />
+                    <span>08/08/2022 as 08:00</span>
+                </div>
+                <div>
+                    <Tag title="Ficção Cientifica" />
+                    <Tag title="Drama" />
+                    <Tag title="Familia" />
+                </div>
                 <p>
                     Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade
                     agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA,
