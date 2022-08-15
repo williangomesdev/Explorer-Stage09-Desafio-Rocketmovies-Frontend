@@ -2,8 +2,7 @@ import { Header } from '../../components/Header'
 import { ButtonText } from '../../components/ButtonText'
 import { Tag } from '../../components/Tag'
 import { AiOutlineArrowLeft } from "react-icons/ai";
-import { BsStarFill, BsStar, BsStarHalf, BsClock } from "react-icons/bs";
-import { StarGroup } from '../../components/StarGroup'
+import { BsStarFill, BsStar, BsClock } from "react-icons/bs";
 
 
 
