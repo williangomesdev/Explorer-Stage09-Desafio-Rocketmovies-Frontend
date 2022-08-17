@@ -31,10 +31,7 @@ export const Container = styled.button`
   }
 
   p {
-    overflow: hidden;
-    text-overflow: ellipsis;
-
-    text-align: justify;
+    text-align: left;
     font-size: 1rem;
     line-height: 1.1875rem;
     color: ${({ theme }) => theme.COLORS.GRAY_200};

@@ -31,10 +31,37 @@ export const Container = styled.div`
       font-size: 1rem;
       line-height: 1.3125rem;
 
-      svg{
+      svg {
         width: 1rem;
         height: 1rem;
       }
+    }
+  }
+
+  .movieTags {
+    margin-top: 2.375rem;
+    margin-inline: auto;
+    margin-bottom: 60px;
+    max-width: 1137px;
+    max-height: 716px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      width: 0.5rem;
+    }
+
+    &::-webkit-scrollbar-button {
+      height: 1rem;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-inline: 0.8rem solid ${({ theme }) => theme.COLORS.ROSE};
+      border-radius: 1rem;
+      background-clip: padding-box;
     }
   }
 `;
