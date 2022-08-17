@@ -38,6 +38,14 @@ export function Home() {
                         { id: '3', name: 'Familia' }
                     ]
                 }} />
+                
+                <Movie data={{
+                    title: "Interestellar", tags: [
+                        { id: '1', name: 'Ficção Cientifica' },
+                        { id: '2', name: 'Drama' },
+                        { id: '3', name: 'Familia' }
+                    ]
+                }} />
 
             </div>
         </Container>

@@ -31,7 +31,7 @@ export const Container = styled.button`
   }
 
   p {
-    text-align: left;
+    text-align: justify;
     font-size: 1rem;
     line-height: 1.1875rem;
     color: ${({ theme }) => theme.COLORS.GRAY_200};

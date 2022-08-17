@@ -41,14 +41,15 @@ export const Container = styled.div`
   .movieTags {
     margin-top: 2.375rem;
     margin-inline: auto;
-    margin-bottom: 60px;
-    max-width: 1137px;
-    max-height: 716px;
+    margin-bottom: 3.75rem;
+    max-width: 71.0625rem;
+    max-height: 44.75rem;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1.5rem;
-    overflow-y: scroll;
+    overflow-y: auto;
 
     &::-webkit-scrollbar {
       width: 0.5rem;
