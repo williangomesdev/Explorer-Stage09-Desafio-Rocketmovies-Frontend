@@ -35,7 +35,7 @@ export const Form = styled.form`
     margin-top: calc(1.5rem - 0.5rem);
   }
 
-  button:nth-of-type(2) {
+  a {
     margin-top: calc(3rem - 0.5rem);
     align-self: center;
   }

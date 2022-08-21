@@ -19,9 +19,13 @@ body, input ,button, textarea{
     font-size: 1rem;
     outline: none;
 }
- a{
+a:visited,a{
     text-decoration: none;
+    color: ${({ theme }) => theme.COLORS.ROSE};
  }
+
+
+ 
 
  button, a{
     transition: filter 0.2s;
