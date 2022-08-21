@@ -1,10 +1,8 @@
 import { Header } from '../../components/Header'
 import { ButtonText } from '../../components/ButtonText'
 import { Tag } from '../../components/Tag'
-import { AiOutlineArrowLeft } from "react-icons/ai";
+import { FiArrowLeft } from 'react-icons/fi';
 import { BsStarFill, BsStar, BsClock } from "react-icons/bs";
-
-
 
 import { Container } from './styles'
 
@@ -15,7 +13,7 @@ export function MoviePreview() {
             <Header />
             <main>
                 <div>
-                    <AiOutlineArrowLeft /><ButtonText title="Voltar" />
+                    <FiArrowLeft /><ButtonText title="Voltar" />
                 </div>
                 <div>
                     <h1>Interestellar</h1>
