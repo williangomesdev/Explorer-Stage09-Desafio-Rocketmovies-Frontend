@@ -87,6 +87,10 @@ export const Form = styled.form`
     background: ${({ theme }) => theme.COLORS.BLACK};
 
     span {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
       padding-block: 1.25rem;
     }
 
