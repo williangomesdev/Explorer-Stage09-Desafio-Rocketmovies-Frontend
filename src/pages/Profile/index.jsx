@@ -19,7 +19,7 @@ export function Profile() {
                         <input id="avatar" type='file' />
                     </label>
                 </Avatar>
-                <Input placeholder="Nome" type='text' icon={FiUser} />
+                <Input placeholder="Nome" type='text' icon={FiUser}/>
                 <Input placeholder="Email" type='text' icon={FiMail} />
                 <Input placeholder="Senha atual" type='password' icon={FiLock} />
                 <Input placeholder="Nona senha" type='password' icon={FiLock} />

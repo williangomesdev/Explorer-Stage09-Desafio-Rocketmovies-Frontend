@@ -5,7 +5,7 @@ export const Container = styled.div`
   max-width: 39.375rem;
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
   padding-left: 1.5rem;
   color: ${({ theme }) => theme.COLORS.GRAY_400};
   background: ${({ theme }) => theme.COLORS.BACKGROUND_INPUT};
