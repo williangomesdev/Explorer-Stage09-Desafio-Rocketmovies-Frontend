@@ -1,4 +1,5 @@
 import { FiPlus } from 'react-icons/fi'
+import { Link } from 'react-router-dom';
 import { Header } from "../../components/Header";
 import { Movie } from '../../components/Movie';
 import { Container } from "./styles"
@@ -9,10 +10,10 @@ export function Home() {
             <Header />
             <div className='mainTitle'>
                 <h1>Meus filmes</h1>
-                <a href="#">
+                <Link to="/new">
                     <FiPlus />
                     Adicionar filme
-                </a>
+                </Link>
             </div>
             <div className="movieTags">
                 <Movie data={{
@@ -38,7 +39,7 @@ export function Home() {
                         { id: '3', name: 'Familia' }
                     ]
                 }} />
-                
+
                 <Movie data={{
                     title: "Interestellar", tags: [
                         { id: '1', name: 'Ficção Cientifica' },

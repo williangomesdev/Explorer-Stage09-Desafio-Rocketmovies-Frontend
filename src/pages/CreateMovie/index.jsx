@@ -1,4 +1,5 @@
 import { FiArrowLeft, FiPlus, FiX } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 import { Button } from '../../components/Button'
 import { ButtonText } from '../../components/ButtonText'
 import { Header } from '../../components/Header'
@@ -15,7 +16,7 @@ export function CreateMovie() {
                 <Form>
                     <header>
                         <div>
-                            <FiArrowLeft /><ButtonText title="Voltar" />
+                            <FiArrowLeft /><Link to="/">Voltar</Link>
                         </div>
                         <h1>Novo Filme</h1>
                     </header>
@@ -27,7 +28,7 @@ export function CreateMovie() {
                     <textarea placeholder='Observações' />
                     <h2>Marcadores</h2>
                     <div className='tagSpace'>
-                        <Tag title="React" icon={<FiX />}/>
+                        <Tag title="React" icon={<FiX />} />
                         <Tag title="Novo marcador" icon={<FiPlus />} />
                     </div>
 
